@@ -1,0 +1,32 @@
+# Secrets and environment configurations
+.env
+.env.local
+*.env
+*.env.local
+*application-local.properties
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Maven / Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
